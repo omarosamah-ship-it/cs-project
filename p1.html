@@ -2,38 +2,39 @@
 
 <head>
 <title>form of login</title>
+
 </head>
 
-<body>
+<body style="color:white; background-color: rgb(0, 0, 0); width:120px; height: 30px;">
     <fieldset>
- <form>
+ <form action="p2.html" method="get">
     <div>
     <label for="sss"><h3>user name</h3></label>
-<input type="text" id="sss" placeholder="اسم المستخدم"required>
+<input type="text" id="sss" placeholder="اسم المستخدم" required style="color:white; background-color: rgb(255, 255, 255); width:180px;">
     </div>
 
 <div>
     <label for="mmm"><h3>passward</h3></label>
-<input type="password" id="mmm" placeholder="كلمه المرور"required>
+<input type="password" id="mmm" placeholder="كلمه المرور" required style="color:white; background-color: rgb(255, 255, 255); width:180px;" >
  </div>
-
-
-
-
-
-
+ <div>
+<input type="radio" name="role" value="student" id="dd">
+ <label for="dd">student</label>
+<input type="radio" name="role" id="ddd" value="teacher">
+ <label for="ddd">teacher</label> 
+</div>
+<div>
+<input type="checkbox" id="ch" value="agree on terms of service" required>
+<label for="ch">agree on terms of service</label>
+</div>
 
  <br>
 <div>
-<input type="submit" value="Log in">
+    <input type="submit" value="Log in" style="color:white; background-color: rgb(79, 86, 214); width:120px; height: 30px;">
 </div>
  </form>
 </fieldset>
 
-
-
 </body>
-
-
 
 </html>
